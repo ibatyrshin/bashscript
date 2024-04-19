@@ -51,7 +51,7 @@ if [[ -z $(grep 'alias t="tree -a"' ~/.bashrc) ]]; then
   echo 'alias t="tree -a"' >> ~/.bashrc
 fi
 
-sudo exec bash
+exec bash
 
 sleep 15s
 # Install apps
